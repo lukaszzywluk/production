@@ -14,8 +14,8 @@ export default function html(options) {
   let link = '';
 
   if (isProduction) {
-    path = '/app/';
-    link = `<link rel="stylesheet" href="${path}css/main.css" />`;
+    path = '/app/'
+    link = `<link rel="stylesheet" href="/css/style.css" />`;
   }
 
   return `
